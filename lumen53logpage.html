@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen5 - Dashboard</title>
+
+
+    <script>
+
+
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+
+        let logoutMe = function()
+        {
+          let response = confirm("Want to logout ?")
+
+          if(response)
+              location.assign("index.html");
+          
+              console.log("hii");
+
+
+        }
+    </script>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./Css/lumen53logpage.css">
+
+
+
+    
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="afterNav">
+       <div>
+        <img class="logo" src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" alt="lumen5">
+        <img class="menu" src="https://image.flaticon.com/icons/png/128/545/545705.png" alt="">
+    </div>
+    <div class="subdiv">
+        <div class="search">
+             <button><img  id="searchbtn" src="https://image.flaticon.com/icons/png/128/709/709592.png" alt="search"></button>
+            <input type="text" placeholder="Search your Videos">
+        </div>
+    <button id="upgradebtn">Upgrade</button>
+    <div id="logindetails">
+        <img id="userimg" src="https://static.thenounproject.com/png/99567-200.png" alt="userimg">
+      
+    </div>
+    <span style="margin-left: 1%;" id="display_me"></span>
+    <div id="logout" class="logout hidee" style="position: fixed;" onclick="logoutMe()">
+        <p> My videos</p>
+            <p>My Channel</p>
+            <p>Workspace</p>
+            <p>Team members</p>
+            <p>account settings</p>
+            <p>Help centre</p>
+            <div style="border-top: 1px solid rgba(0, 0, 0, 0.466);">
+                <p id="logoutp"><a href="./index.html"></a> Logout</p>
+            </div>
+            <!-- <p onclick="logoutMe()">Logout</p> -->
+    </div>
+    </div>
+      
+</div>
+<!-- message button start -->
+<button id="msgbtn"><img src="https://static.thenounproject.com/png/3768102-200.png" alt=""></button>
+<div id="msgbox" class="msgbox hide">
+    <div id="div1">
+        <img src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-white.png" alt="">
+        <h2>Hi there</h2>
+        <p>we are here to help! If you have questions oe feedback, we're all ears</p>
+    </div>
+    <div id="div2">
+        <h2>Start another conversation</h2>
+        <button class="msgdivbtn"> <img src="https://www.flaticon.com/svg/vstatic/svg/60/60525.svg?token=exp=1615466599~hmac=eef43afa8c4a4a3995852d6c469639eb" alt="" srcset=""> <input type="text" placeholder="Send us Message"></button>
+    </div>
+
+</div>
+<!-- msg btn end -->
+<div>
+    <h1 style="float: left; margin-left: 35%;" class="texth1">Choose a video format</h1>
+    <a style="float: left; margin-left: 15%; margin-top: 25px;" href="index.html">Skip</a>
+</div>
+
+<h2 style="clear: both;"><img id="fbicon" src="https://image.flaticon.com/icons/png/512/124/124010.png" alt=""> Facebook</h2>
+
+<div id="contentbox1">
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>News Feed</h3>
+        <p>16:9 ratio</p>
+        <p>60 sec</p>
+    </div>
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>News Feed</h3>
+        <p>1:1 ratio</p>
+        <p>60 sec</p>
+    </div>
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Story</h3>
+        <p>9:16 ratio</p>
+        <p>20 sec</p>
+    </div>
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Carousel Ad</h3>
+        <p>1:1 ratio</p>
+        <p>30 sec</p>
+    </div>
+</div>
+  <div id="insta">
+    <h2><img id="fbicon1" src="https://www.brandchannel.com/wp-content/uploads/2016/05/instagram-new-logo-may-2016.jpg" alt=""> Instagram</h2>
+  </div> 
+
+<div id="contentbox1">
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Post</h3>
+        <p>16:9 ratio</p>
+        <p>60 sec</p>
+    </div>
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Post</h3>
+        <p>1:1 ratio</p>
+        <p>60 sec</p>
+    </div>
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Story</h3>
+        <p>9:16 ratio</p>
+        <p>15 sec</p>
+    </div>
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>IGTV</h3>
+        <p>9:16 ratio</p>
+        <p>120 sec</p>
+    </div>
+</div>
+<div id="insta">
+    <h2><img id="fbicon1" src="https://www.flaticon.com/svg/vstatic/svg/733/733579.svg?token=exp=1615562182~hmac=76672712166605ef8a7bd66c27c0ab4a" alt=""> Twitter</h2>
+  </div> 
+
+<div id="contentbox1">
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Post</h3>
+        <p>16:9 ratio</p>
+        <p>140 sec</p>
+    </div>
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Post</h3>
+        <p>1:1 ratio</p>
+        <p>140 sec</p>
+    </div>
+  
+</div>
+<div id="insta">
+    <h2><img id="fbicon1" src="https://www.flaticon.com/svg/vstatic/svg/1384/1384060.svg?token=exp=1615562337~hmac=f3e15545a2265391221849774eef9489" alt=""> Youtube</h2>
+  </div> 
+
+<div id="contentbox1">
+    <div class="divboxes">
+        <img class="instaimg" src="https://images.pexels.com/photos/462331/pexels-photo-462331.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        <h3>Post</h3>
+        <p>16:9 ratio</p>
+        <p>140 sec</p>
+    </div>
+   
+</div>
+    
+
+
+    <script src="./Js/lumen53logpage.js"></script>
+    <script>
+        let url2 = new URL(window.location.href)
+        let params2 = new URLSearchParams(url2.search)
+        var name = params2.get("name");
+      // document.getElementById("signup-page1-username").textContent = name;
+        document.getElementById("display_me").textContent = name;
+
+
+
+        
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumen -5 | Dashboard</title>
+
+
+    <script type="text/javascript">
+      function preventBack() { window.history.forward(); }
+      setTimeout("preventBack()", 0);
+      window.onunload = function () { null };
+
+
+      let logoutMe = function()
+      {
+          let response = confirm("Want to logout ?")
+
+          if(response)
+              location.assign("index.html");
+          
+              // console.log("hii");
+
+
+    }
+    </script>
+
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Css/afterloginnav.css" />
+    <link rel="stylesheet" href="./Css/signup_part1.css" />
+
+    <link rel="stylesheet" href="./Css/lumen53.css">
+  </head>
+  <body>
+    <div id="signup-page1">
+
+      <div class="afterNav">
+        <div>
+          <img
+            class="logo"
+            src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"
+            alt="lumen5"
+          />
+          <img
+            class="menu"
+            src="https://image.flaticon.com/icons/png/128/545/545705.png"
+            alt=""
+          />
+        </div>
+        <div class="subdiv">
+          <div class="search">
+            <button>
+              <img
+                id="searchbtn"
+                src="https://image.flaticon.com/icons/png/128/709/709592.png"
+                alt="search"
+              />
+            </button>
+            <input type="text" placeholder="Search your Videos" />
+          </div>
+          <button id="upgradebtn">Upgrade</button>
+          <div id="logindetails">
+            <img
+              class="userimg"
+              src="https://static.thenounproject.com/png/99567-200.png"
+              alt="userimg"
+              
+            />
+            <span id="display_me"></span>
+          </div>
+          <div id="logout" class="logout hidee">
+            <p>My videos</p>
+            <p>My Channel</p>
+            <p>Workspace</p>
+            <p>Team members</p>
+            <p>account settings</p>
+            <p>Help centre</p>
+            <!-- <div style="border-top: 1px solid rgba(0, 0, 0, 0.466)">
+              <p id="logoutp"><a href="index.html"></a> Logout</p>
+            </div> -->
+
+            <p onclick="logoutMe()">Logout</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- content -->
+      <div class="signup-page1">
+        <div class="signup-page1-intro">
+          <p class="signup-page1-intro-1">
+            Welcome, <span id="signup-page1-username"></span>! 👋
+            <!-- <a href="./after_login_1.html" onclick="myDashboard()">skip</a> -->
+            <span class="a" onclick="myDashboard()" id="skip_btn">skip</span>
+          </p>
+          <p style="margin-top: -20px">
+            We want to tailor your experience, so help us by telling a little
+            about yourself.
+          </p>
+        </div>
+        <div class="signup-page1-msg">My goal with Lumen5 is to:</div>
+        <div class="signup-page1-content">
+          <div class="signup-page1-block">
+            <img
+              src="https://storage.googleapis.com/lumen5-site-images/onb-1.png"
+              alt=""
+            />
+            <p>Create videos <br />consistently for a brand</p>
+          </div>
+          <div class="signup-page1-block">
+            <img
+              src="https://storage.googleapis.com/lumen5-site-images/onb-2.png"
+              alt=""
+            />
+            <p>Create videos for <br />a specific project</p>
+          </div>
+          <div class="signup-page1-block">
+            <img
+              src="https://storage.googleapis.com/lumen5-site-images/onb-3.png"
+              alt=""
+            />
+            <p>Create a <br />single video</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Js/afterloginnav.js"></script>
+    <script src="./Js/signup_part1.js"></script>
+    <script src="./Js/lumen53.js"></script>
+  </body>
+</html>
+<!-- Js/afterloginnav.js -->

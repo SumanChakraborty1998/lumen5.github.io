@@ -1,0 +1,116 @@
+#part5 {
+  padding: 5% auto;
+  margin: 2% auto;
+  width: 100%;
+  height: 100vh;
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+.part5 {
+  width: 70%;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.part5,
+h1 {
+  margin: 7vh auto 5vh auto;
+  text-align: center;
+  font-size: 40px;
+}
+.video-block {
+  /* border: 1px solid red; */
+  width: 65%;
+  height: 75vh;
+  max-height: 75vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  /* position: relative; */
+  /* gap: 2%; */
+}
+.video-block-col1 {
+  width: 32%;
+  height: 80%;
+  /* border: 1px solid red; */
+}
+.video-block-col2 {
+  width: 32%;
+  height: 100%;
+  /* border: 1px solid blue; */
+}
+.video-block-col3 {
+  width: 32%;
+  height: 75%;
+  /* border: 1px solid green; */
+}
+.video-block-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+.video-block-col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+.video-block-col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+.video-block-row11 {
+  width: 100%;
+  height: 25%;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+}
+.video-block-row12 {
+  width: 100%;
+  height: 75%;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+}
+.video-block-row21 {
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+}
+.video-block-row22 {
+  width: 100%;
+  height: 35%;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+}
+.video-block-row31 {
+  width: 100%;
+  height: 27%;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+}
+.video-block-row32 {
+  width: 100%;
+  height: 46%;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+}
+.video-block-row33 {
+  width: 100%;
+  height: 27%;
+  /* border: 1px solid green; */
+  border-radius: 10px;
+}
+.video-block-video {
+  width: 12.5vw;
+  height: 100%;
+  border-radius: 12px;
+}
+.video-block-video:hover {
+  transform: scale(1.025);
+  cursor: pointer;
+  /* animation-play-state: loop; */
+}
+/* .video-block-video::-webkit-media-controls {
+    display: none;
+  } */

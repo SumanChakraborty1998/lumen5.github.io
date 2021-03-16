@@ -1,0 +1,426 @@
+
+
+.lumen_intro{
+
+    width: 100%;
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0%;
+    top: 0;
+    margin-top: 4%;
+
+}
+
+.background_gray{
+
+    background-color: whitesmoke;
+}
+
+.inner_first{
+
+    /* border: solid yellow 1px; */
+    width: 50%;
+    margin-left: 10%;
+    
+}
+
+.inner_second{
+
+    /* border: solid green 1px; */
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+
+
+
+
+.heading{
+
+    font-family: 'Poppins', sans-serif;
+
+    padding: 0% 20%;
+    font-size: 5vh;
+    margin-right: 2%;
+}
+
+
+.description{
+
+    padding: 0% 20%;
+    margin-right: 2%;
+    font-size: 2.5vh;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.heading2{
+
+    font-family: 'Poppins', sans-serif;
+
+    padding: 0% 5%;
+    font-size: 5vh;
+    margin-right: 2%;
+}
+
+
+.description2{
+
+    padding: 0% 5%;
+    margin-right: 2%;
+    font-size: 3.5vh;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.font_size2{
+    font-size: 2.5vh;
+}
+
+
+.font_size3{
+    font-size: 1.9vh;
+}
+
+
+#sign_up_button{
+
+    margin:  5% 20%;
+    height: 8vh;
+    width: 20vh;
+    border-radius: 50px;
+    background-color: rgb(88,70,246);
+    color: white;
+    font-size: 2.5vh;
+    outline: none !important;
+    
+}
+
+
+
+
+.intro_img{
+
+
+    width: 80%;
+    height: auto;
+    padding: auto auto;
+
+}
+
+.other_img{
+
+    width: 85%;
+    margin-left: 20%;
+    height: auto;
+    /* border: solid pink; */
+    padding: auto auto;  
+    margin-top: 20%;
+
+    
+
+}
+
+
+.user_img{
+    width: 60px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 30%;
+}
+
+.loc_img{
+    width: 30%;
+    height: auto;
+    margin-top: 0px
+}
+
+
+.logos{
+    width: 60%;
+    height: auto;
+    padding: 20%;
+}
+
+
+.user_flex{
+    display: flex;
+    flex-direction: row;
+    /* border: solid red; */
+    gap: 2%;
+}
+
+.linkings{
+
+    margin-right: 2%;
+    font-size: 2.5vh;
+    color: rgb(88,70,246);
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.partition{
+
+
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+.icon_logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: rgb(88,70,246);
+    margin-left: 20%;
+}
+
+
+.pointer {
+
+  cursor: pointer;
+
+}
+
+.pointer1 {
+
+  cursor: pointer;
+
+}
+
+
+.pointer2:hover{
+    text-decoration: underline;
+}
+
+.pointer1:hover{
+    background: blue !important;
+    color: white !important;
+    outline: none !important;
+}
+
+
+body button{
+    outline: none;
+}
+
+
+
+/* Mangesh part 6 */
+
+
+
+
+/* End of part 6 */
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+
+    .other_img{
+
+        width: 85%;
+        margin-left: 20%;
+        height: auto;
+        padding: auto auto;  
+        margin-top: 50%;
+    
+    }
+
+
+    .intro_img{
+    
+        width: 85%;
+        height: auto;
+        margin-left: 20%;
+
+        padding: auto auto;
+
+        margin-top: 10%;
+    
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 992px){
+
+    .other_img{
+
+        width: 95%;
+        margin-left: 1%;
+        height: auto;
+        padding: auto auto;  
+        margin-top: 70%;
+    
+    }
+
+
+    .intro_img{
+
+        /* min-width: 80%; */
+    
+        width: 95%;
+        height: auto;
+        margin-left: 5%;
+        /* border: solid pink; */
+        padding: auto auto;
+        /* margin-top: 2%; */
+        margin-top: 50%;
+    
+    }
+
+    .lumen_intro{
+
+        margin-top: 6%;
+
+    } 
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+
+
+    .lumen_intro{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0% 0%;
+        margin-top: 8%;
+    
+    }
+
+    .inner_first{
+        width: 100%;
+    }
+
+    .inner_second{
+        width: 100%;
+    }
+
+
+    .inner_first{
+
+        margin: auto;
+    }
+
+    .intro_img{
+
+    
+        width: 85%;
+        height: auto;
+        margin-left: 10%;
+        padding: auto auto;
+        margin-top: 1%;
+    
+    }
+
+
+    .other_img{
+
+        width: 85%;
+        margin-left: 10%;
+        height: auto;
+        padding: auto auto;  
+        margin-top: 1%;
+    
+    
+    }
+
+    .reverse_col{
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .lumen_intro{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0% 0%;
+        margin-top: 8%;
+    
+    }
+
+    .inner_first{
+        width: 100%;
+    }
+
+    .inner_second{
+        width: 100%;
+    }
+
+
+    .inner_first{
+
+        margin: auto;
+        
+    }
+
+
+    .intro_img{
+
+
+    
+        width: 85%;
+        height: auto;
+        margin-left: 5%;
+
+        padding: auto auto;
+
+        margin-top: 1%;
+    
+    }
+
+    .other_img{
+
+        width: 85%;
+        margin-left: 5%;
+        height: auto;
+        padding: auto auto;  
+        margin-top: 1%;
+    
+        
+    
+    }
+
+    .reverse_col{
+        flex-direction: column-reverse;
+    }
+
+
+}

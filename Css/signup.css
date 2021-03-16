@@ -1,0 +1,331 @@
+
+#parent{
+    display: flex;
+    flex-direction: row;
+    /* border: solid red 1px; */
+
+    /* grid-template: "one two"; */
+}
+
+#one{
+    /* border: solid pink; */
+    width: 25%;
+    /* background-image: url("Images/lumen_intro.png"); */
+    padding-left: 4%;
+    /* background: rgb(70, 70, 228); */
+    background-image: url("assets/images/login_signup_back_image.png");
+    position: fixed;
+  
+    
+
+}
+
+
+
+#two{
+
+    width: 70%;
+
+    /* border: solid yellow; */
+    margin-left: 29.6%;
+}
+
+
+
+#logo_branch{
+    display: grid;
+    grid-gap: 10%;
+    grid-template: "first second third"
+                    "fourth fifth sixth";
+
+
+    margin-top: 20%;
+    /* background: turquoise; */
+
+    /* border: solid black 1px; */
+    margin-top: 38%;
+}
+
+
+
+#first{
+    grid-area: first;
+}
+
+#second{
+    grid-area: second;
+}
+
+#third{
+    grid-area: third;
+}
+
+#fourth{
+    grid-area: fourth;
+}
+
+#fifth{
+    grid-area: fifth;
+}
+
+#sixth{
+    grid-area: sixth;
+}
+
+#brand_logo{
+
+
+    width: 30%;
+    height: auto;
+}
+
+#login_heading{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 6vh;
+    /* border: solid red; */
+    margin-top: 30%;
+    margin-right: 15%;
+    color: white;
+
+
+}
+
+#login_paragraph{
+
+    font-family: 'Poppins', sans-serif;
+    /* border: solid greenyellow; */
+    margin-top: 10%;
+    font-size: 2.5vh;
+    color: white;
+
+}
+
+#logo_branch img{
+    width: 80%;
+    /* border: solid pink; */
+    margin-bottom: 8%;
+}
+
+
+.pointer{
+    cursor: pointer;
+}
+
+
+#signup_me:hover{
+    background: mediumturquoise;
+}
+
+
+
+  
+#SignUpMain {
+    width: 550px;
+    height: 1000px;
+    float: auto;
+    margin: auto;
+    color: gray;
+    padding-top: 50px;
+
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#SignUpLogo {
+    height: 105px;
+    text-align: center;
+}
+
+#SignUPHere {
+    width: 400px;
+    height: 450px;
+    border: 0px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.122),
+        0 6px 20px 0 rgba(0, 0, 0, 0.136);
+    text-align: center;
+    margin: auto;
+    border-radius: 2px;
+    padding-top: 1px;
+    color: gray;
+    margin-top: 20%;
+}
+#SignUPHere > input {
+    height: 45px;
+    width: 370px;
+    text-align: left;
+    margin: 6px;
+    padding-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.395);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.027),
+        0 6px 20px 0 rgba(0, 0, 0, 0.088);
+    border-radius: 4px;
+}
+#SignUPHere > button {
+    height: 45px;
+    width: 370px;
+    text-align: center;
+    margin: 10px;
+    background-color:rgb(88,70,246);
+    color: white;
+    border: 1px solid rgb(88,70,246);
+    border-radius: 5px;
+    font-size: 20px;
+}
+#spanGreen {
+    color: rgb(88,70,246);
+    
+    /* color: red; */
+}
+
+#spanGreen:hover{
+    color: rgb(88,70,246);
+    /* font-size: 50px; */
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#SignUpWith {
+    max-width: 400px;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    float: auto;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.061),
+        0 6px 20px 0 rgba(0, 0, 0, 0.088);
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+}
+
+#SignUpWith > div > div {
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    color: gray;
+
+    float: left;
+
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#SignUpWith > div > div:nth-child(1) {
+    margin-left: 4%;
+    background-image: url(https://desktime.com/assets/img/icons/facebook_v2.svg);
+}
+#SignUpWith > div > div:nth-child(2) {
+    background-image: url(https://desktime.com/assets/img/icons/twitter_v2.svg);
+}
+#SignUpWith > div > div:nth-child(3) {
+    background-image: url(https://desktime.com/assets/img/icons/linkedin_v2.svg);
+}
+#SignUpWith > div > div:nth-child(4) {
+    background-image: url(https://desktime.com/assets/img/icons/google_v2.svg);
+}
+#lastLogin {
+    text-align: center;
+    font-size: 15px;
+}
+
+#name, #mail, #pass{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#name:focus, #mail:focus, #pass:focus{
+    /* border: solid red; */
+    /* border: none; */
+    /* width: 150%; */
+    border-radius: 50px;
+    border: solid rgb(88,70,246) 1px;
+}
+
+*:focus{
+    outline: none;
+}
+
+
+
+#rushifont5 {
+    font-size: 5px;
+}
+#rushifont13 {
+    font-size: 13px;
+}
+#rushifont15 {
+    font-size: 15px;
+    margin-left: unset;
+}
+#rushifont20 {
+    font-size: 20px;
+}
+#rushifont25 {
+    font-size: 25px;
+}
+#rushifont30 {
+    font-size: 30px;
+}
+#rushifont40 {
+    font-size: 40px;
+}
+#rushifont50 {
+    font-size: 50px;
+}
+
+#rushifont60 {
+    font-size: 60px;
+}
+  
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    /* #parent{
+        flex-direction: column;
+    } */
+
+    #one{
+        visibility: hidden;
+    }
+
+
+    #two{
+        margin-left: 10%;
+    }
+
+    /* #font_size2{
+        width: %;
+    } */
+
+} 
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+    #two{
+        margin-left: 1% !important;
+    }
+
+    #SignUpMain{
+        margin-left: 0% !important;
+    }
+
+    #font_size2{
+        width: 80%;
+    }
+
+
+    /* #SignUPHere {
+
+        margin-left: 5%;
+    } */
+}
+

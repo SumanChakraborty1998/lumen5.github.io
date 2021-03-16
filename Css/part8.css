@@ -1,0 +1,45 @@
+#part8 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 60%;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  padding: 5%;
+  background-color: #5846f6;
+  background-image: url(./assets/images/cta-bg.png);
+  border-radius: 2vw;
+}
+#part8-heading {
+  font-weight: bolder;
+  font-size: 40px;
+  line-height: 5vh;
+  color: white;
+}
+#part8-heading,
+#part8-cont,
+#part8-button {
+  margin: 1vh auto;
+  width: 70%;
+}
+#part8-cont {
+  font-size: 30px;
+  color: white;
+}
+#part8-btn {
+  padding: 2%;
+  font-size: 30px;
+  color: #5846f6;
+  background-color: white;
+  border: white;
+  border-radius: 2.5vw;
+  box-shadow: inset 0 0 0 0 rgb(235, 210, 210);
+  transition: ease-out 0.3s;
+}
+#part8-btn:hover {
+  box-shadow: silver;
+  box-shadow: inset 300px 0 0 0 rgb(235, 210, 210);
+  cursor: pointer;
+  color: #5846f6;
+}

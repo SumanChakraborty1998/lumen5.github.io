@@ -1,0 +1,393 @@
+.MenuBarToggle {
+    /* transform: translate(10%); */
+    position: fixed;
+  
+    /* border-bottom: 1px solid #eaeaeb; */
+    background: whitesmoke;
+    text-align: right;
+    height: 70px;
+    width: 98.99%;
+    line-height: 70px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* color: tomato; */
+    margin-bottom: 100px;
+    font-size: 2.5vh;
+    top: 0;
+}
+
+.menuBar {
+    margin: 0 30px 0 0;
+    border-radius: 5px;
+}
+
+
+.menuBar a {
+    clear: right;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+.navref{
+  width: 5%;
+  text-decoration: none;
+  text-align: right;
+  font-size: 18px;
+  margin: 1%;
+  color: rgb(88,93,103);
+  font-family: 'Poppins', sans-serif;
+  /* color: black; */
+  /* color: red; */
+}
+#navselect{
+  width: 8%;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  background: whitesmoke;
+  color: black;
+  /* color: red; */
+}
+
+
+#SignButton {
+    width: 90px;
+    height: 40px;
+    color: white;
+    border: 1px solid rgb(70, 70, 228);
+    background-color: rgb(70, 70, 228);
+    border-radius: 50px;
+}
+
+
+#LogInButton {
+    width: 90px;
+    height: 40px;
+
+    border: 1px solid rgb(70, 70, 228);
+    color: rgb(70, 70, 228);
+
+    border-radius: 50px;
+}
+  
+#Menulabel {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#MenuLine {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(70, 70, 228);
+}
+
+#toggle {
+    display: none;
+}
+
+.SvgLogo {
+    transform: translate(50%);
+    float: left;
+    margin-top: 0%;
+    width: 10%;
+    height: auto;
+
+}
+  
+
+#MenuEnd {
+    height: 100px;
+    width: 100%;
+}
+
+
+
+#footer {
+  width: 100%;
+  margin: auto;
+  margin-top: 300px;
+
+  font-family: 'Poppins', sans-serif;
+}
+#footer-list {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px 240px;
+  grid-template-rows: 500px;
+  margin: auto;
+  gap: 0.5%;
+  margin-top: -270px;
+}
+#footer-list > div > nav > ul > li {
+  list-style: none;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: rgb(86, 83, 83);
+}
+#footer-list > div > nav > ul > li:hover {
+  color: rgb(70, 70, 228);
+  cursor: pointer;
+}
+#footer-list > div > nav > ul > li:nth-child(1) {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 900;
+  color: rgb(68, 65, 65);
+}
+#copy {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 200px 500px 50px 50px 50px 50px 130px 130px;
+  grid-template-rows: 100px;
+  gap: 0.3%;
+  margin: auto;
+  margin-top: -145px;
+}
+#d-logo {
+  margin-left: 0%;
+  width: 500%;
+  cursor: pointer;
+}
+#fb-l > a > img,
+#twitter-l > a > img,
+#linkedin-l > a > img {
+  width: 30px;
+}
+#youtube-l > a > img {
+  width: 70px;
+  margin-left: -20px;
+}
+#google-play > a > img,
+#app-store > a > img {
+  width: 120px;
+  margin-left: 10px;
+}
+#google-play > a > img {
+  margin-top: -40px;
+}
+#copy-2 {
+  width: 100%;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 435px 730px 20px;
+  grid-template-rows: 70px;
+  margin: auto;
+}
+#copyright > p {
+  font-size: 20px;
+  text-align: right;
+  color: darkgray;
+}
+#dra-group > img {
+  margin-top: 20px;
+  cursor: pointer;
+}
+#MenuBar > div > a > img {
+  margin-top: 20px;
+}
+#footer-list > div > nav > select {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+
+    .MenuBarToggle {
+    
+        width: 98.3%;
+        
+    }
+
+    #Menulabel {
+      display: block;
+      cursor: pointer;
+    }
+    .menuBar {
+      text-align: center;
+      width: 100%;
+      display: none;
+    }
+    .menuBar a {
+      display: block;
+      border-bottom: 1px solid #eaeaeb;
+      margin: 0;
+      background-color: white;
+      visibility: visible;
+      color: black;
+      text-align: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      overflow: hidden;
+    }
+    #toggle:checked + .menuBar {
+      display: block;
+    }
+    #SignButton {
+      width: 20%;
+      height: 40px;
+      color: white;
+      border: 1px solid rgba(16, 120, 16, 0);
+      background-color: rgb(70, 70, 228);
+      border-radius: 20px;
+    }
+    #LogInButton {
+      width: 20%;
+      height: 40px;
+      background-color: white;
+      border: 1px solid rgb(70, 70, 228);
+      color: rgb(70, 70, 228);
+      border-radius: 20px;
+    }
+
+
+
+  #footer-list {
+    grid-template:
+      "desktime Learn-more Integrations"
+      "features Contacts";
+    grid-template-columns: 240px 240px 240px;
+    grid-template-rows: 330px 330px;
+    margin-top: 150px;
+  }
+  #index_part2 {
+    margin-top: 1000px;
+  }
+  #footer {
+    margin-top: 30px;
+  }
+
+  #copy {
+    margin-top: 50px;
+    grid-template:
+      "d-logo"
+      "fb-l twitter-l youtube-l linkedin-l google-play app-store";
+    grid-template-columns: 50px 50px 50px 50px 130px 130px;
+    grid-template-rows: 70px 100px;
+    margin-left: 200px;
+  }
+  #copy-2 {
+    grid-template: "copyright cpoyr-blank dra-group";
+    grid-template-columns: 300px 350px 100px;
+    grid-template-rows: 70px;
+  }
+  #d-logo {
+    grid-column-start: 3;
+    grid-column-end: 6;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .MenuBarToggle {
+    
+        width: 96.8%;
+        
+    }
+
+    #footer-list {
+    grid-template:
+      "desktime"
+      "Learn-more"
+      "Integrations"
+      "features"
+      "Contacts";
+    grid-template-columns: 240px;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    margin-top: -1250px;
+  }
+
+  #footer-list > div > nav > ul {
+    display: none;
+  }
+  #footer-list > div > nav > select {
+    display: inline-block;
+    width: 400px;
+    border: none;
+    cursor: pointer;
+  }
+  #footer-list > div > nav > select:hover {
+    color: rgb(70, 70, 228);
+  }
+  #copy {
+    margin-top: 50px;
+    grid-template:
+      "d-logo copy-blank"
+      "fb-l twitter-l youtube-l linkedin-l"
+      "google-play app-store";
+    grid-template-columns: 65px 65px 65px 65px;
+    grid-template-rows: 70px 70px 100px;
+    margin-left: 80px;
+  }
+  #fb-l,
+  #twitter-l,
+  #yutube-l,
+  #linkedin-l {
+    margin-left: 10px;
+  }
+  #google-play {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  #app-store {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  #copy-2 {
+    grid-template:
+      "copyright copyr-blank"
+      "dra-group";
+    grid-template-columns: 280px 0px;
+    grid-template-rows: 70px 70px;
+    margin-left: 80px;
+    width: 80%;
+  }
+  #dra-group {
+    grid-row-start: 2;
+    text-align: center;
+  }
+  #d-logo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  #desktime > ul > li,
+  #Learn-more > ul > li,
+  #Integrations > ul > li,
+  #features > ul > li,
+  #Contacts > ul > li {
+    overflow: hidden;
+  }
+  #footer {
+    margin-top: 1450px;
+  }
+
+  .transform{
+    transform: translate(70%);
+  }
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+
+
+    .MenuBarToggle {
+    
+        width: 94.8%;
+        
+    }
+}
+
+  
+  /* <!-- toggle menu end here so u start code --> */
+  

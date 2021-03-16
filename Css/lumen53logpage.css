@@ -1,0 +1,253 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.afterNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.afterNav>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 110px;
+    margin-right: 120px;
+    margin-left: 22px;
+}
+.menu{
+    width: 20px;
+    height: 20px;
+}
+
+.search{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+}
+.search>button{
+border: none;
+ background-color: white;
+ outline: none;
+}
+.search>input{
+    border: none;
+    outline: none;
+}
+
+#searchbtn{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+#upgradebtn{
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+   border: 1px solid rgb(88,70,246);
+   border-radius: 50px;
+   background-color: white;
+   font-size: 15px;
+   color: rgb(88,70,246);
+}
+#upgradebtn:hover{
+    background-color:rgb(88,70,246);
+    color: white;
+}
+#logindetails{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 5vh;
+    border-left: 1px solid black;
+    margin-left: 20px;
+}
+#userimg{
+    width: 22px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.subdiv{
+    margin-right: 100px;
+}
+.logout{
+    height:auto;
+    width: 200px;
+    position: absolute;
+    right: 15px;
+    top: 60px;
+    margin: 2px 0 0;
+    border:1px solid rgba(0, 0, 0, 0.384);
+    background-color: FFFFFF;
+   transition: all 1000ms ease-in-out;
+   opacity: 1;
+   box-shadow:  1px 4px 10px 2px #888888;
+   background-clip: padding-box;
+}
+.hidee{
+    transition: all 600ms ease-in-out;
+    opacity: 0.00;
+    
+}
+.logout>p{
+   margin-left: 25px;
+   font-family: 'Poppins', sans-serif;
+   color: #333;
+}
+#logoutp{
+    margin-left: 25px; 
+}
+/* nav end */
+
+/* msgbtn */
+#msgbtn{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    border-radius: 50%;
+    background-color: rgb(88,70,246);
+    border: 1px solid black;
+}
+#msgbtn:focus{
+    outline: none;
+}
+#msgbtn>img{
+ width: 30px;
+ padding: 2px;
+}
+.msgbox{
+    height: 70vh;
+    width: 300px;
+    position: fixed;
+    right: 50px;
+    bottom: 150px;
+    border-radius: 20px;
+   overflow: auto;
+   transition: all 1000ms ease-in-out;
+   opacity: 1;
+}
+.hide{
+    transition: all 600ms ease-in-out;
+    opacity: 0.00;
+    
+}
+#div1{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(56,37,223);
+    margin-bottom:0.2px;
+  
+}
+#div1>img{
+    width: 50%;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#div1>h2{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+#div1>p{
+    text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+#div2{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0%;
+    padding-top: 0%;
+    background-color:white ;
+    font-family: 'Poppins', sans-serif;
+}
+.msgdivbtn{
+   max-width:100%;
+ height: 50px;
+ border-radius: 50px;
+ border: none;
+ background-color: rgb(88,70,246) ;
+ font-size: 15px;
+
+
+}
+.msgdivbtn>img{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+.msgdivbtn>input{
+    width: 70%;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    float: right;
+    margin-right: 0%;
+    padding-top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* msg btn end */
+/* content box */
+#fbicon{
+    width: 20px;
+    margin-left: 15%;
+}
+#contentbox1{
+    width: 100%;
+    height: 50vh;
+    margin-top: 0%;
+    margin-left: 150px;
+    background-color: whitesmoke;
+}
+.divboxes{
+    width: 16%;
+    float: left;
+    margin: 1%;
+    margin-top: 0%;
+    height: 45vh;    
+    background-color: white;
+    box-shadow:  1px 4px 10px 2px #888888;
+}
+.divboxes:hover{
+    box-shadow:  1px 4px 10px 2px #333333;
+}
+.divboxes>p{
+   text-align: center;
+   margin-top: 0%;
+}
+.divboxes>h3{
+    text-align: center;
+ }
+.instaimg{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 10px;
+  
+}
+.texth1{
+    text-align: center;
+    color:rgb(88,70,246);
+    font-family: 'Poppins', sans-serif;
+}
+#fbicon1{
+    width: 40px;
+    height: 40px;
+    margin-left: 15%;
+    padding-top: 5px;
+}
+#insta{
+  font-size: 25px;
+  margin: none;
+}

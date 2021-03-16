@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumen5 - Dashboard</title>
+
+    <script type="text/javascript">
+      function preventBack() { window.history.forward(); }
+      setTimeout("preventBack()", 0);
+      window.onunload = function () { null };
+
+
+
+      let logoutMe = function()
+      {
+          let response = confirm("Want to logout ?")
+
+          if(response)
+              location.assign("index.html");
+          
+              // console.log("hii");
+
+
+      }
+    </script>
+
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/signup_part2.css" />
+    <link rel="stylesheet" href="Css/afterloginnav.css" />
+    <link rel="stylesheet" href="./Css/lumen53.css">
+  </head>
+  <body>
+    <div id="signup-page1">
+      <div class="afterNav">
+        <div>
+          <img
+            class="logo"
+            src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png"
+            alt="lumen5"
+          />
+          <img
+            class="menu"
+            src="https://image.flaticon.com/icons/png/128/545/545705.png"
+            alt=""
+          />
+        </div>
+        <div class="subdiv">
+          <div class="search">
+            <button>
+              <img
+                id="searchbtn"
+                src="https://image.flaticon.com/icons/png/128/709/709592.png"
+                alt="search"
+              />
+            </button>
+            <input type="text" placeholder="Search your Videos" />
+          </div>
+          <button id="upgradebtn">Upgrade</button>
+          <div id="logindetails">
+            <img
+              class="userimg"
+              src="https://static.thenounproject.com/png/99567-200.png"
+              alt="userimg"
+            />
+            <span id="display_me"></span>
+          </div>
+          <div id="logout" class="logout hidee">
+            <p>My videos</p>
+            <p>My Channel</p>
+            <p>Workspace</p>
+            <p>Team members</p>
+            <p>account settings</p>
+            <p>Help centre</p>
+            <!-- <div style="border-top: 1px solid rgba(0, 0, 0, 0.466)">
+              <p id="logoutp"><a href="./index.html"></a> Logout</p>
+            </div> -->
+            <p onclick="logoutMe()">Logout</p>
+          </div>
+        </div>
+      </div>
+      <!-- content -->
+      <div id="signup-page2">
+        <div class="signup-page2-heading">
+          <h1>Let's get started making your video.</h1>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="signup-page2-msg">
+          <div>
+            <h2>Templates</h2>
+            <p>
+              Use one of your professionally designed video templates as a
+              starting point.
+            </p>
+          </div>
+          <div class="a">
+            <span  onclick="myDashboard()" id="skip_btn" >skip</span>
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="signup-page2-block">
+          <p>News</p>
+          <div class="signup-page2-inblock">
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Classic_2.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Classic_2_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Underline_bar.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Underline_bar_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Sleek_2b_v3.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Sleek_2b_v3.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Smart_2b.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Smart_2b_v2.mp4"
+              ></video>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="signup-page2-block">
+          <p>Ads</p>
+          <div class="signup-page2-inblock">
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Two_BG_Color.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Two_BG_Color_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Circle_mask.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Circle_mask_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Circle_text_box.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Circle_text_box_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Classic_2c.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Classic_2c_v2.mp4"
+              ></video>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="signup-page2-block">
+          <p>How-to/Tutorials</p>
+          <div class="signup-page2-inblock">
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Sleek_2.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Sleek_2_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Fresh_2.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Fresh_2_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Smart_2.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Smart_2_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Classic_2b.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Classic_2b_v2.mp4"
+              ></video>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="signup-page2-block">
+          <p>Listicles</p>
+          <div class="signup-page2-inblock">
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Regal.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Regal_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Fresh_2b.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Fresh_2b_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Sleek_2c.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Sleek_2c_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Prev_Smart_2c.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Smart_2c_v2.mp4"
+              ></video>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="signup-page2-block" class="block-scroll">
+          <p>2020 templates</p>
+          <div class="signup-page2-inblock">
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Preview_Classic_v2.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Classic_2_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Preview_Sleek.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Sleek_2_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Preview_Modern.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Two_BG_Color_v2.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Preview_Fresh.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Prev_Fresh_2_v2.mp4"
+              ></video>
+            </div>
+            
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+        <div class="signup-page2-block" class="block-scroll">
+          <p>2019 templates</p>
+          <div class="signup-page2-inblock">
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Static_Classic2b.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Preview_Classic2b.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Static_Sleek_3b.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Preview_Sleek_3.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Static_Fresh_3.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Preview_Fresh2b.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-site-images/Static_Smart_3.png"
+                src="https://storage.googleapis.com/lumen5-site-images/Preview_Smart_3.mp4"
+              ></video>
+            </div>
+            <!-- <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-prod-images/tmp-placeholder-imgCxiqgm.jpg"
+                src="https://storage.googleapis.com/lumen5-prod-renderedvideos/videorenderingdataWjfZnKLq78sv.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-prod-images/tmp-placeholder-imgerBhsP.jpg"
+                src="https://storage.googleapis.com/lumen5-prod-renderedvideos/1770377-video-segment-0PAWckVeK7BHW.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-prod-images/tmp-placeholder-imgcNKcRT.jpg"
+                src="https://storage.googleapis.com/lumen5-prod-renderedvideos/1562394-video-segment-0QxyhyTFjEnoi.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-prod-images/tmp-placeholder-imgKEJA2Z.jpg"
+                src="https://storage.googleapis.com/lumen5-prod-renderedvideos/videorenderingdatae8exMf40UE0L.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-prod-images/tmp-placeholder-imgvGff2R.jpg"
+                src="https://storage.googleapis.com/lumen5-prod-renderedvideos/1559688-video-segment-0lKHfGQCyKnol.mp4"
+              ></video>
+            </div>
+            <div>
+              <video
+                poster="https://storage.googleapis.com/lumen5-prod-images/tmp-placeholder-imgGMdTKE.jpg"
+                src="https://storage.googleapis.com/lumen5-prod-images/tmp-placeholder-imgGMdTKE.jpg"
+              ></video>
+            </div> -->
+          </div>
+        </div>
+        <!-- --------------------------------- -->
+      </div>
+    </div>
+    <script src="Js/afterloginnav.js"></script>
+    <script src="Js/signup_part2.js"></script>
+    <script src="Js/lumen53.js"></script>
+
+
+    <script>
+      let url2 = new URL(window.location.href)
+      let params2 = new URLSearchParams(url2.search)
+      var name = params2.get("name");
+      // document.getElementById("signup-page1-username").textContent = name;
+      // document.getElementById("display_me").textContent = name;
+
+      console.log(name);
+
+      function myDashboard()
+      {
+          let url = `lumen53logpage.html?name=${name}`
+          location.assign(url)
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lumen5 | Video Content Marketing</title>
+
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="Css/signup.css">
+
+    </head>
+
+    <body onload="noBack();"onpageshow="if (event.persisted) noBack();" onunload="">
+
+
+        <div id="parent">
+
+
+            
+            <div id="one" class="bg-text">
+                <div>
+                    <img src="Images/white_logo.png" alt="Lumen Logo" id="brand_logo">
+                </div>
+
+                <h2 id="login_heading">Video creation made easy</h2>
+
+                <p id="login_paragraph">Join 500,000+ brands creating videos with Lumen5</p>
+
+                <div id="logo_branch">
+                    <img src="Images/comp1.png" alt="Lumen Logo" id="first">
+                    <img src="Images/comp2.png" alt="Lumen Logo" id="second">
+                    <img src="Images/comp3.png" alt="Lumen Logo" id="third">
+                    <img src="Images/comp4.png" alt="Lumen Logo" id="fourth">
+                    <img src="Images/comp5.png" alt="Lumen Logo" id="fifth">
+                    <img src="Images/comp6.png" alt="Lumen Logo" id="sixth">
+
+                </div>
+               
+            </div>
+
+
+            <div id="two">
+                
+
+                <div id = "MenuEnd"></div>
+
+                <div id = "SignUpMain">
+                    <div id = "SignUpLogo">
+                        <h1 id = "font_size2">Get started with a free account</h1>
+                        <p id = "font_size2">Enter your details for Sign up</p>
+                    </div>
+
+                    <div id = "SignUPHere">
+                        <h4 style="color: rgb(88,70,246);">Register here</h4>
+                        <input type = "text" placeholder="Your Name" id="name">
+                        <input type = "email" placeholder="Your Email" id="mail">
+                        <input type = "password" placeholder="Your Password" id="pass">
+                        <button class="pointer" id="signup_me" onclick="validateMyData()">Sign up for free</button>
+
+                        <h4 id = "rushifont15" >Try free for 14 days. No credit card required.</h4>
+                        <h4 id = "rushifont13"  >By signing up, you agree to our<span id = "spanGreen"> terms </span> and<span id = "spanGreen"> privacy policy.</span></h4>
+                    </div>
+
+                    <div id = "SignUpWith">
+                        <h3  id = "rushifont15">Or connect with</h3>
+
+
+                    <div>
+                        <div id="fb" onclick="redirectToPage()" class="pointer"></div>
+                        <div id="twitter" onclick="redirectToPage()" class="pointer"></div>
+                        <div id="linkedin" onclick="redirectToPage()" class="pointer"></div>
+                        <div id="google" onclick="redirectToPage()" class="pointer"></div>
+                    </div>
+                    </div>
+
+                    <h4 id = "lastLogin">Are you already registered? <span id ="spanGreen"><a href="Login.html">Log in here</span></h4>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </body>
+
+    <script src="Js/signup.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <script>
+
+        let redirectToPage = ()=>{
+
+
+            let id = event.target.id;
+
+            switch(id){
+                case "fb":
+                    location.assign("https://www.facebook.com/");
+                    break;
+
+                case "twitter":
+                    location.assign("https://www.twitter.com/");
+                    break;
+
+                case "linkedin":
+                    location.assign("https://www.linkedin.com/in/")
+                    break;
+
+                case "google":
+                    location.assign("https://myaccount.google.com/")
+                    break;
+            }
+            // console.log(id);
+        }
+
+
+        window.history.forward();
+	    function noBack() { window.history.forward(); }
+
+
+    </script>
+
+</html>

@@ -1,0 +1,123 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lumen5 | Video Content Marketing</title>
+
+
+
+        <script type="text/javascript">
+            function preventBack() { window.history.forward(); }
+            setTimeout("preventBack()", 0);
+            window.onunload = function () { null };
+        </script>
+
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Css/signup.css">
+        
+        <link rel="stylesheet" href="Css/login.css">
+
+    </head>
+
+    <body>
+
+
+        <div id="parent">
+
+
+            
+            <div id="one" class="bg-text">
+                <div>
+                    <img src="Images/white_logo.png" alt="Lumen Logo" id="brand_logo">
+                </div>
+
+                <h2 id="login_heading">Video creation made easy</h2>
+
+                <p id="login_paragraph">Join 500,000+ brands creating videos with Lumen5</p>
+
+                <div id="logo_branch">
+                    <img src="Images/comp1.png" alt="Lumen Logo" id="first">
+                    <img src="Images/comp2.png" alt="Lumen Logo" id="second">
+                    <img src="Images/comp3.png" alt="Lumen Logo" id="third">
+                    <img src="Images/comp4.png" alt="Lumen Logo" id="fourth">
+                    <img src="Images/comp5.png" alt="Lumen Logo" id="fifth">
+                    <img src="Images/comp6.png" alt="Lumen Logo" id="sixth">
+
+                </div>
+               
+            </div>
+
+
+            <div id="two" style="margin-top: 0em;">
+                
+
+                <div id = "MenuEnd"></div>
+
+                <div id = "LogInMain" >
+                    <div id = "LogInLogo">
+                        <img src = "Images/Lumen_logo.png" style="width: 20%; height: auto">
+                        <h1 id = "loginH1font">Log into Your Lumen5</h1>
+                    </div>
+            ​
+                    <div id = "LoginHere">
+                        <h4 id = "loginFont">Login here</h4>
+                        <input type = "email" placeholder="Your Eamil" id="mail" class="onfocus_change">
+                        <input type = "password" placeholder="Your Password" id="pass" class="onfocus_change">
+                        <button id="login_button" onclick="loginMe()">Login</button>
+            ​
+                        <h4  id = "ForgetpassFont" style="margin-left: unset;" class="pointer1" onclick="changePassInterface()">Change password ?</h4>
+                        <h4 id = "loginFont">Not yet registered? <span id = "spanGreen"> <a href="signup.html" style="text-decoration: none;"> Sign up </a></span></h4>
+                    </div>
+            ​
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+    <script src="Js/login.js"></script>
+
+
+    <script>
+
+        let redirectToPage = ()=>{
+
+
+            let id = event.target.id;
+
+            switch(id){
+                case "fb":
+                    location.assign("https://www.facebook.com/");
+                    break;
+
+                case "twitter":
+                    location.assign("https://www.twitter.com/");
+                    break;
+
+                case "linkedin":
+                    location.assign("https://www.linkedin.com/in/")
+                    break;
+
+                case "google":
+                    location.assign("https://myaccount.google.com/")
+                    break;
+            }
+            // console.log(id);
+        }
+
+    </script>
+
+</html>
